@@ -1,0 +1,41 @@
+.about {
+    height: 100vh;
+    background: #0B0116;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+
+
+}
+
+.about h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: rgba(255, 255, 255, 0.3);
+    border: 3px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 10% 10%;
+    gap: 20px;
+
+    color: #FFFFFF;
+    text-align: left;
+}
+
+@media screen and (min-width:1024px) {
+    .about {
+        padding: 0 20%;
+    }
+}
