@@ -1,0 +1,21 @@
+.btn a {
+    background: var(--degrade-btn-2);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(11.5757px);
+    padding: 0.8em 1.7em;
+
+    border-radius: 30px;
+    align-content: center;
+
+    color: var(--cor-da-fonte);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+}
+
+
+.btn a:hover {
+    background: var(--hover-btn);
+}

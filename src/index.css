@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --fonte-principal: "DM Sans", sans-serif;
+    --cor-background: linear-gradient(180deg, #0F103F 0%, #202066 48.44%, #08082c 100%);
+    --cor-background-projects: rgba(255, 255, 255, 0.42);
+    --cor-borda-projects: rgba(255, 255, 255, 0.62);
+    --cor-da-fonte: #FFFFFF;
+    --degrade-btn-1: #ffffff4d;
+    --degrade-btn-2: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
+    --degrade-background-da-fonte: linear-gradient(90deg, #C961DE 10%, #c16cec 35%, #3F56AB 53%, #6b95e9 90%);
+    --hover-btn: #102e67;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
